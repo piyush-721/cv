@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 40px auto 0 auto;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 3.75rem;
+  line-height: 0.7;
+  /* 16px= 100%= 1em */
+}
+
+h2 {
+  color: #66BFBF;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 95px;
+}
+
+.middle-container {
+  background-color: #d6efc7;
+  position: relative;
+  padding-top: 20px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 40px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.sub {
+  color: #66BFBF;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.7rem;
+  font-weight: normal;
+}
+
+.skills {}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+hr {
+  border: 10px;
+  border-style: dotted;
+  border-bottom: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  color: #EAF6F6;
+  width: 7%;
+  padding: 20px;
+}
+
+h3, a {
+  color: #11999E;
+}
+
+p {
+  color: #40514E;
+}
+
+.pimage {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+}
+
+.skillimg {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.badminton {
+  float: right;
+  width: 25%;
+  margin-right: 30px;
+}
+
+/* .skill-description {
+                               /* float and clear property
+clear: left;
+}
+
+.badminton-description {
+  clear: right;
+}
+*/
+.copyright {
+  padding-top: 15px;
+  color: #EAF6F6;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 400px;
+}
+
+.btn {
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  border-radius: 32px;
+  height: 4px;
+  line-height: 4px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  width: 120px;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 20px;
+  background-color: #11999E;
+  -webkit-box-shadow: 1px 1px 100px 0 rgba(247, 247, 247, 0.97);
+  -moz-box-shadow: 1px 1px 100px 0 rgba(247, 247, 247, 0.97);
+  box-shadow: 1px 1px 100px 0 rgba(247, 247, 247, 0.97);
+  text-shadow: -4px 4px 26px #FFFFFF;
+  border: ridge #A3DDCB 3px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background: #5eaaa8;
+  border: solid #FFFFFF 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.footer-link {
+  font-size: 1.2rem;
+  color: #11999E;
+  padding: 30px;
+}
